@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="images/Spotify_App_Logo.svg.png" type="images">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        
+    }
+    
+    header{
+        height: 80px;
+        width: 1280px;
+        background-color: black;
+       
+      
+    }
+
+    .logo{
+        background-image: url("images/head_logo.png");
+        height: 60px;
+        width: 150px;
+        background-size: cover;
+        position: absolute;
+        left: 80px;
+        top: 6px;
+       
+    
+    }
+    nav{
+            position: absolute;
+            color: white;
+            top: 35px;
+            right: 110px;
+            
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav ul li{
+            display: inline-block;
+            margin-right: 13px;
+            color: white;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul li sup{
+            color:#ff406b;
+        }
+        nav :hover{
+            color: #b44861;
+
+        }
+        .hero-image{
+            background-image: url("images/Screenshot\ \(32\).png");
+            height: 500px;
+            width: 1280px;
+            background-repeat: no-repeat;
+            background-size: cover;  
+           
+        }
+        .card-text{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 35px;
+            margin-bottom: 25px;
+            font-weight: 700;
+           
+            
+        }
+
+        .podcast1{
+            margin-left: 60px;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            background-repeat: no-repeat;
+            position: relative;
+            display: inline-block;
+            padding: 40px;
+
+        }
+        .podcast1 h2{
+            font-size: 18px;
+        }
+        .podcast2{
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            background-repeat: no-repeat;
+            position: relative;
+            display: inline-block;
+            padding: 40px;
+
+        }
+        .podcast2 h2{
+            font-size: 18px;
+        }
+        .podcast3{
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            background-repeat: no-repeat;
+            position: relative;
+            display: inline-block;
+            padding: 40px;
+
+        }
+        .podcast3 h2{
+            font-size: 18px;
+        }
+        .podcast4{
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            background-repeat: no-repeat;
+            position: relative;
+             display: inline-block;
+             padding: 40px;
+
+        }
+        .podcast4 h2{
+            font-size: 18px;
+        }
+       .page{
+        background-image: url("images/page.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 1280px;
+      
+        
+       }
+       .text1{
+        margin-top: 50px;
+        text-align: center;
+       
+       }
+       .summary{
+        margin: 90px;
+      
+       }
+       .image{
+        background-image: url("images/screenshot.png");
+        height: 450px;
+        width: 1280px;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+       }
+       footer{
+        background-color: black;
+        height: 500px;
+        width: 1280px;
+       
+        
+       }
+       .list{
+        color: white;
+        padding-left: 200px;
+        padding-top: 0px;
+    
+       }
+       .list h3{
+        color: grey;
+        padding-bottom: 20px;
+       }
+       .list li:hover{
+        color: #b44861;
+
+       }
+       .list-one{
+        display: inline-block;
+        position: relative;
+       }
+       .list-two{
+        display: inline-block;
+        position: relative;
+        top: 76px;
+        padding-left: 60px;
+        
+       }
+       .list-three{
+        display: inline-block;
+        position: relative;
+        padding-left: 50px;
+       }
+       ul{
+        display: inline-block;
+        list-style-type: none;
+       }
+       li{
+        padding-bottom: 20px;
+       }
+       .foot-logo{
+        background-image: url("images/");
+       
+        background-size: cover; 
+        background-repeat: no-repeat;  
+    }
+    .foot-nav{
+        color: white;
+    }
+    .foot-nav ul li{
+        position: relative;
+        display: inline-block;
+        bottom: -170px;
+        left: 50px;
+        padding: 10px;
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
+        background-color: aliceblue;
+    }
+    .foot-nav ul li:hover{
+        color: #b44861;
+    }
+    footer{
+        position: relative;
+    }
+    footer p{
+        color: white;
+        position: relative;
+        bottom: -150px;
+        right: -1100px;
+        font-size: 15px;
+    }
+    .foot-logo{
+        background-image: url("images/Screenshot\ \(33\).png");
+        height: 60px;
+        width: 150px;
+        background-size: cover;
+        position: absolute;
+        top: 150px;
+    }
+    section{
+        width: 1280px;
+        border: solid black;
+    }
+    
+      </style>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <div class="logo"></div>
+        <nav>
+        
+                    <ul>
+                        <li><a href="#">Premium</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">Signup</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+              
+        
+        </nav>
+        </header>
+        <section>
+            <article>
+                <div class="hero-image"></div>
+                <div class="card-text"> <h1>  Why Spotify? </h1></div>
+            </article>
+        <div class="podcast1">
+            <img src="images/1.png" alt="">
+            <h2>Play your favorites.</h2>
+           <p>Listen to the songs you love, and discover new music and podcasts.</p> 
+        </div>
+        <div class="podcast2">
+            <img src="images/2.png" alt="">
+            <h2>Playlists made easy.</h2>
+           <p>We'll help you make playlists. Or enjoy playlists made by music experts.</p> 
+        </div>
+        <div class="podcast3">
+            <img src="images/3.png" alt="">
+            <h2>Make it yours.</h2>
+           <p>Tell us what you like, and we'll recommend music for you.</p> 
+        </div>
+        <div class="podcast4">
+            <img src="images/4.png" alt="">
+            <h2>Save mobile data.</h2>
+           <p>To use less data when you play music, turn on Data Saver in Settings.</p> 
+        </div>
+        <div class="page"></div>
+        </section>
+        
+           <div class="text1"> <h1>
+                Got questions?
+            </h1>
+           </div>
+           <div class="summary">
+            <details>
+                <summary><h2>
+                    How do I Create a playlist? </h2>
+                </summary>
+                <p>
+                  <br>  Playlists are a great way to save collections of music, either for your own listening or to share. <br>
+
+To create one: <br>
+
+1. Tap Your Library. <br>
+2. Tap CREATE. <br>
+3. Give your playlist a name. <br>
+4. Start adding songs (and we'll help you along). <br>
+                </p>
+            </details>
+            <details>
+                <summary>
+                <h2>  How do I activate Data Saver Mode? </h2>
+                </summary>
+                <p> <br>
+                    1. Tap Home. <br>
+2. Tap Settings. <br>
+3. Tap Data Saver. <br>
+4. Switch on Data Saver. <br>
+                </p>
+            </details>
+            <details>
+                <summary><h2>Is it possible to shuffle play music?</h2></summary>
+                <p><br> Any playlist with the shuffle icon will play on shuffle. <br>
+
+                    Some playlists won't have the shuffle icon, so you can tap any song to play it. <br></p>
+            </details>
+            <details>
+                <summary><h2>Where can I find Podcasts? </h2></summary>
+                <p> <br> Tap Search. Under Browse All, tap Podcasts.</p>
+            </details>
+            </div>
+        </div>
+        
+        <div class="image">
+
+        </div>
+    </div>
+    <footer>
+        <div class="footer"></div>
+        <div class="foot-logo"></div>-logo
+    <div class="list">
+           
+        <ul class="list-one">
+            <h3>COMPANY</h3>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>For the Record</li>
+        </ul>
+          
+        <ul class="list-two">
+            <h3>COMMUNITIES</h3>
+            <li>For Artists</li>
+            <li>Developers</li>
+            <li>Advertising</li>
+            <li>Investors</li>
+            <li>Vendors</li>
+        </ul>
+
+        <ul class="list-three">
+            <h3>USEFUL LINKS</h3>
+            <li>Support</li>
+            <li>Web Player</li>
+            <li>Free Web Player</li>
+        </ul>
+    </div>
+    <div class="foot-nav">
+        <ul class="foot-nav">
+            <li>Legal</li>
+            <li>Privacy Center</li>
+            <li>Privacy Policy</li>
+            <li>Cookies</li>
+            <li>About Ads</li>
+        </ul>
+    </div>
+    <p>     
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India (English) <br>
+        © 2022 Spotify AB</p>
+    </footer>
+</body>
+</html>
